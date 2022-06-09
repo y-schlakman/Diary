@@ -16,7 +16,7 @@ html, body {padding: 0; margin: 0; width: 100%; height: 100%;}
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
-	background-color: lightgrey;
+	background-color: #D4D2D5;
 }
 @media (max-width: 450px)  { #title{font-size: 5vw;} #date{font-size: 7vw;}}
 @media (min-width: 450px) { #title{font-size: 2.5vw;} #date{font-size: 4vw;}}
@@ -60,17 +60,21 @@ html, body {padding: 0; margin: 0; width: 100%; height: 100%;}
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	background-color: dodgerblue;
+	background-color: #D4D2D5;
 }
 #logTextarea {
-  width: 70%;
-  height: 80%;
+  width: 30%;
+  height: 70%;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 20px;
-  background-color: #f8f8f8;
+  background-color: #ECECEC;
+  margin-top: 2%;
   resize: none;
+  font-size: 1.5vw;
+  color: #2A2A2A;
+  font-family: cursive;
 }
 #logTextarea::placeholder {
 	color: black;
@@ -78,22 +82,26 @@ html, body {padding: 0; margin: 0; width: 100%; height: 100%;}
 }
 #saveBtn {
 	margin-top: 2%;
-	padding: 15px 30px;
-	border-radius: 20px;
+	padding: 10px 40px;
+	border-radius: 10px;
+	border-color: #2A2A2A;
+	font-size: 1.5vw;
+	font-family: cursive;
+	background-image: linear-gradient(45deg, #6C698D , #ECECEC);
 }
 #saveBtn:hover {
-	transition-duration: 0.0s;
+	transition-duration: 0.2s;
 	opacity: 0.9;
 }
 #saveBtn:active {
 	transition-duration: 0s;
-	border-color: yellow;
-	color: dodgerblue;
+	border-color: #ECECEC;
+	color: #2A2A2A;
 }
 #footer {
 	width: 100%;
 	flex-grow: 1;
-	background-color: black;
+	background-color: #2A2A2A;
 	display: flex;
 	justify-content: center;
 	align-items: center;
